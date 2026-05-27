@@ -118,4 +118,4 @@
           {products.map((p, i) => (
             <div
               key={i}
-              className="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden hover:scale
+              className="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden hover:scale-105 transform transition"
