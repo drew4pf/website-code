@@ -15,7 +15,7 @@ export default function Home() {
   // =============================
   const products = [
     // ---------- GOLF ----------
-    { name: "Callaway Golf Rangefinder", tag: "Golf", badge: "Best Pick", score: 98, image: "https://images.unsplash.com/photo-1603787081207-362bcef7c144?q=80&w=1400&auto=format&fit=crop", link: `https://www.amazon.com/s?k=callaway+rangefinder&tag=${amazonTag}` },
+    { name: "Callaway Golf Rangefinder", tag: "Golf", badge: "Best Pick", score: 98, image: "https://m.media-amazon.com/images/I/71chTGM1PVL._AC_UY218_.jpg", link: `https://www.amazon.com/s?k=callaway+rangefinder&tag=${amazonTag}` },
     { name: "Premium Putting Mat", tag: "Golf", badge: "Highly Rated", score: 92, image: "https://images.unsplash.com/photo-1592919505780-303950717480?q=80&w=1400&auto=format&fit=crop", link: `https://www.amazon.com/s?k=putting+mat&tag=${amazonTag}` },
     { name: "Golf Swing Trainer", tag: "Golf", badge: "Trending", score: 90, image: "https://images.unsplash.com/photo-1622163642998-1ea32b0b3f1d?q=80&w=1400&auto=format&fit=crop", link: `https://www.amazon.com/s?k=golf+swing+trainer&tag=${amazonTag}` },
     { name: "Golf Practice Net", tag: "Golf", badge: "Popular", score: 88, image: "https://images.unsplash.com/photo-1609710228159-0fa9bd7c1b7a?q=80&w=1400&auto=format&fit=crop", link: `https://www.amazon.com/s?k=golf+practice+net&tag=${amazonTag}` },
