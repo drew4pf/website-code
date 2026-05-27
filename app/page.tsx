@@ -92,6 +92,34 @@ export default function Home() {
           onChange={(e) => setSearch(e.target.value)}
         />
       </section>
+      {/* CATEGORY TABS */}
+<div className="flex gap-2 flex-wrap">
+  {["All","Golf","Tech","Setup"].map(cat => (
+    <button
+      key={cat}
+      onClick={() => setActiveCategory(cat)}
+      className={`px-4 py-2 rounded-full text-sm font-medium transition ${
+        activeCategory === cat
+          ? "bg-white text-black"
+          : "bg-white/10 text-white/70 hover:bg-white/20"
+      }`}
+    >
+      {cat}
+    </button>
+  ))}
+</div>
+
+{/* EMPTY STATE - inside the products section */}
+{filtered.length === 0 && (
+  <div className="text-center py-20 text-white/40">
+    No products found for "{search}"
+  </div>
+)}
+
+{/* FTC DISCLAIMER - add above footer */}
+<p className="text-center text-xs text-white/30 py-4">
+  As an Amazon Associate I earn from qualifying purchases.
+</p>
 
       {/* PRODUCTS */}
       <section className="max-w-6xl mx-auto px-6 pb-20">
