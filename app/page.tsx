@@ -61,7 +61,7 @@ export default function Home() {
     Setup: "text-violet-400"
   };
 
-  const badgeStyle = (b) => {
+  const badgeStyle = (b: string) => {
     if (b === "Best Pick") return "bg-yellow-400 text-black";
     if (b === "Highly Rated") return "bg-emerald-500/20 text-emerald-300";
     if (b === "Trending") return "bg-orange-500/20 text-orange-300";
