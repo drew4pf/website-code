@@ -102,7 +102,7 @@ export default function Home() {
 
               <div className="p-5">
                 <div className="flex justify-between">
-                  <span className={tagStyle[p.tag]}>{p.tag}</span>
+                  <span className={tagStyle[p.tag as keyof typeof tagStyle]}>{p.tag}</span>
                   <span className={`text-xs px-2 py-1 rounded-lg ${badgeStyle(p.badge)}`}>{p.badge}</span>
                 </div>
 
